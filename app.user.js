@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name ozelotjp-box/youtube.com
-// @version 1.10
+// @version 1.11
 // @author ozelotjp
 // @homepageURL https://github.com/ozelotjp-box/youtube.com
 // @downloadURL https://github.com/ozelotjp-box/youtube.com/raw/master/app.user.js
@@ -10,7 +10,7 @@
 
 function reversePlaylist() {
   let playlist = document.getElementById("playlist");
-  if (playlist.style.display === "") {
+  if (playlist.style.display !== "none") {
     playlist.style.display = "none";
   } else {
     playlist.style.display = "block";
