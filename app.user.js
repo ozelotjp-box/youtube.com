@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name ozelotjp-box/youtube.com
-// @version 1.14
+// @version 1.15
 // @author ozelotjp
 // @homepageURL https://github.com/ozelotjp-box/youtube.com
 // @downloadURL https://github.com/ozelotjp-box/youtube.com/raw/master/app.user.js
-// @match https://www.youtube.com/watch
+// @match https://www.youtube.com/*
 // @grant GM_notification
 // ==/UserScript==
 
